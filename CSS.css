@@ -1,0 +1,116 @@
+.header{
+    text-align: center;
+    font-size: 30px;
+    color: #000000;
+    margin-top: 20px;
+}
+.text1{
+    text-align: center;
+    font-size: 10px;
+    color: #000000;
+    margin: 0 10%;
+    
+}
+
+.login{
+    padding: 60px;
+    width: 35%;
+    margin: 5px auto;
+
+}
+.logout{
+    padding: 60px;
+    width: 35%;
+    margin: 5px auto;
+}
+.return{
+    top:0;
+    width: 35%;
+    margin: 5px auto;
+}
+
+body{
+    background-image: url('databasesBG.png');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+
+
+}
+input[type=text], input[type=password]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+
+
+button{
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+
+}
+
+
+.recordBox{
+    background-color: #ffffff;
+    margin: 0;
+    padding:0px 20px;
+    overflow:auto;
+    position:fixed;
+    top:11%;
+    left:13%;
+    width:82%;
+    height: 87%;
+
+}
+  
+#sidenav{
+    ul{
+        font-size:16px;
+        background-color: #ffffff;
+        list-style-type: none;
+        margin: 0;
+        padding:0;
+        overflow:auto;
+        position:absolute;
+        top: 11%;
+        left: 2%;
+        height:87%;
+        width:160px;
+    }
+    li{
+        float:left;
+    }
+    li a{
+        display: block;
+        color:rgb(0, 0, 0);
+        padding:14px 16px;
+        text-decoration: none;
+      }  
+      li a:hover{
+        background-color: #a9a9a9;
+        color:rgb(0, 0, 0);
+      }
+}
+
+  
+  
+  .main {
+    margin-left: 240px;
+    font-size: 28px;
+    padding: 0px 10px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
